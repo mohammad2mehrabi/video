@@ -1,10 +1,4 @@
-/*
-🎬 Video playlist UI Design like Skillshare With Vanilla JavaScript
-👨🏻‍⚕️ By: Coding Design
 
-You can do whatever you want with the code. However if you love my content, you can subscribed my YouTube Channel
-🌎link: www.youtube.com/codingdesign
-*/
 
 const main_video = document.querySelector('.main-video video');
 const main_video_title = document.querySelector('.main-video .title');
@@ -16,6 +10,12 @@ let data = [
         'title': 'github uplode',
         'name': 'git.mp4',
         'duration': '2:47',
+    },
+    {
+        'id': 'a2',
+        'title': 'postman',
+        'name': 'Untitled Project.mp4',
+        'duration': '5:40',
     },
 
 ];
